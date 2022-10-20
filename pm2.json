@@ -1,0 +1,14 @@
+{
+    "apps" : [
+        {
+            "name"      : "GSS_log_Doorman",
+            "max_memory_restart": "1024M",
+            "script"    : "./dist/src/app.js",
+            "out_file" : "./logs/GSS_log_Doorman_out.log",
+            "error_file" : "./logs/GSS_log_Doorman_error.log",
+            "env": {
+                "NODE_ENV": "production"
+            }
+        }
+    ]
+}
